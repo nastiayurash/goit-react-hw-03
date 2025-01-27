@@ -1,0 +1,13 @@
+.boxWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.label {
+  color: black;
+  font-style: normal;
+}
+.input {
+  border: 2px solid black;
+  border-radius: 5px;
+}

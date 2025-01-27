@@ -1,0 +1,25 @@
+.form {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.fieldWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.error {
+  color: red;
+}
+.btnWrapper {
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  background-color: grey;
+  color: black;
+  border: 1px solid black;
+}
