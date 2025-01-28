@@ -51,7 +51,7 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Phonebook</h1>
+      <h1 className="header">Phonebook</h1>
       <ContactForm onAdd={addContact} />
       <SearchBox value={searchBox} onSearch={setSearchBox} />
       <ContactList contacts={visibleContacts} onDelete={deleteContact} />

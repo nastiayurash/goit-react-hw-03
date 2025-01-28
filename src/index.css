@@ -68,14 +68,10 @@ button:focus-visible {
 } */
 #root {
   width: 100%;
-
-  margin: 0 auto;
 }
 @media screen and (min-width: 375px) {
   #root {
     max-width: 375px;
-
-    margin: 0 auto;
   }
 }
 
